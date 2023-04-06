@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 
-
 const Meta = () => {
   const router = useRouter();
   return (
