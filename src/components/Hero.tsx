@@ -34,7 +34,7 @@ const Hero = () => (
     <div>
       <section
         style={{ backgroundColor: '#F2F2EA' }}
-        className="background-radial-gradient overflow-hidden"
+        className="overflow-hidden"
       >
         <div className="px-6 py-12 text-center md:px-12 lg:py-24 lg:text-left">
           <div className="container mx-auto text-black xl:px-32">

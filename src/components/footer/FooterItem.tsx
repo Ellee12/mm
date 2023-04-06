@@ -16,7 +16,11 @@ const FooterItem = (props: IFooterItemProps) => (
     <ul className="text-sm font-medium">
       {props.contents.map((content, index) => (
         <li className="mb-4 text-white" key={index}>
-          <a href={content.href} className="hover:underline text-white" target="_blank">
+          <a
+            href={content.href}
+            className="text-white hover:underline"
+            target="_blank"
+          >
             {content.content}
           </a>
         </li>

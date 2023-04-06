@@ -15,7 +15,7 @@ module.exports = {
     },
     extend: {
       screens: {
-        'lg': '960px',
+        lg: '960px',
         // => @media (min-width: 1024px) { ... }
       },
       colors: {
